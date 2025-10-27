@@ -1,0 +1,31 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(133, 224, 252);
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: rgb(214, 22, 22);
+    margin-bottom: 30px;
+}
+table {
+    width: 100%;
+    border-top-color: blue;
+    background: rgb(243, 223, 223);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 1);
+}
+th,td {
+    padding: 12px 15px;
+    border: 1px solid burlywood;
+    text-align: center;
+}
+thead {
+    background-color: rgb(175, 175, 235);
+    color: rgb(255, 5, 67);
+}
+tbody tr:nth-child(even) {
+    background-color: rgb(224, 189, 238);
+}
+tbody tr:hover {
+    background-color: rgb(73, 149, 248) ;
+}
