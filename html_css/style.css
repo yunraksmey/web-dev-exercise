@@ -1,31 +1,47 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(133, 224, 252);
-    padding: 20px;
+.myblock{
+max-width: 550px;
+margin: 50px auto;
+background-color: #7ea0a5;
+padding: 20px;
+border-radius: 50px;
+text-align: center;
+box-shadow: 0 4px 8px rgba(63, 7, 168, 0.95);
 }
-h1 {
-    text-align: center;
-    color: rgb(214, 22, 22);
-    margin-bottom: 30px;
+body{
+  font-family: "Moulpali", sans-serif;
+  background-color: rgb(47, 59, 135);
 }
-table {
-    width: 100%;
-    border-top-color: blue;
-    background: rgb(243, 223, 223);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 1);
+.myblock h1{
+text-align: center;
+color: #333;
 }
-th,td {
-    padding: 12px 15px;
-    border: 1px solid burlywood;
-    text-align: center;
+.myblock img {
+display: block;
+margin: 20px auto;
+width: 150px;
+height: 190px;
+border-radius: 10%;
+object-fit: cover;
 }
-thead {
-    background-color: rgb(175, 175, 235);
-    color: rgb(255, 5, 67);
+dl{
+margin-top: 20px;
 }
-tbody tr:nth-child(even) {
-    background-color: rgb(224, 189, 238);
+dt{
+font-weight: bold;
+margin-top: 10px;
+color: #2c3e50;
 }
-tbody tr:hover {
-    background-color: rgb(73, 149, 248) ;
+dd{
+margin: 0 0 10px 20px;
+color: #555;
+}
+.myblock{
+  font-family: "Metal", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.myblock{
+  font-family: "Moulpali", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
