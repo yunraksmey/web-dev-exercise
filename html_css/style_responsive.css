@@ -1,0 +1,56 @@
+.myblock{
+max-width: 550px;
+margin: 50px auto;
+background-color: #82e8f1;
+padding: 20px;
+border-radius: 50px;
+text-align: center;
+box-shadow: 0 4px 8px rgba(247, 4, 53, 0.1);
+}
+body{
+  font-family: "Moulpali", sans-serif;
+  background-color: rgb(44, 133, 197);
+}
+.myblock h1{
+text-align: center;
+color: #230bae;
+}
+.myblock img {
+display: block;
+margin: 20px auto;
+width: 150px;
+height: 190px;
+border-radius: 10%;
+object-fit: cover;
+}
+dl{
+margin-top: 20px;
+}
+dt{
+font-weight: bold;
+margin-top: 10px;
+color: #074d93;
+}
+dd{
+margin: 0 0 10px 20px;
+color: #151ce996;
+}
+.myblock{
+  font-family: "Metal", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.myblock{
+  font-family: "Moulpali", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@media screen and (max-width: 768px){
+  .myblock{
+    max-width: 280px;
+  }
+  .profile-img{
+    width: 150px;
+    height: 150px;
+  }
+}
