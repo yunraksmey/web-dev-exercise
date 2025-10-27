@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+body{
+    font-family: "Moulpali", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: skyblue;
+  }
+  .profile-area{
+    max-width: 550px;
+    margin: 50px auto;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+  .profile-area >img{
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover ;
+    border-radius: 50%;
+  }
+  dl{
+    margin-top: 20px;
+  }
+  dt{
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(59, 114, 241);
+  }
+  dd{
+    margin: 0 0 10px 20px;
+    color: rgb(14, 1, 16);
+  }
