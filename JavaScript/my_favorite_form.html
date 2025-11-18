@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Anime</title>
+  <link rel="stylesheet" href="my_favorite_form.css">
+</head>
+<body>
+  <script src="my_favorite_form.js"></script>
+  <main class="container">
+  <h1>My Favorite Song</h1>
+
+  <form action="#"id="animeform" method="post" class="card">
+    <!-- Text input -->
+     <div class="card">
+    <div class="form-row">
+      <label for="title">Title</label>
+      <input type="text" id="title" name="title" placeholder="e.g., Jujutsu Kaisen" required maxlength="50"/>
+      <span id="titleError"class="error"></span>
+      <small class="hint">Enter the official or widely known English title.</small>
+    </div>
+
+    <!-- Date  -->
+    <div class="form-row">
+      <label for="start_date">Start Date</label>
+      <input type="date" id="start_date" name="start_date"/>
+      <span id="startDateError"class="error"></span>
+    </div>
+
+    <!-- Select (dropdown) -->
+    <div class="form-row">
+      <label for="genre">Genre</label>
+      <select id="genre" name="genre" required>
+        <option value="" selected disabled>Choose a genre</option>
+        <option>Action</option>
+        <option>Adventure</option>
+        <option>Dark Fantasy</option>
+        <option>Fantasy</option>
+        <option>Mystery</option>
+        <option>Romance</option>
+        <option>Slice of Life</option>
+        <option>Sci-Fi</option>
+      </select>
+      <span id="genreError" class="error"></span>
+    </div>
+
+    <!-- Radio (作品タイプの例) -->
+    <fieldset class="form-row">
+      <legend>Type</legend>
+      <div class="radios">
+        <label><input type="radio" name="type" value="TV" required /> TV</label>
+        <label><input type="radio" name="type" value="Film" /> Film</label>
+        <label><input type="radio" name="type" value="ONA" /> ONA</label>
+        <span id="typeError"class="error"></span>
+      </div>
+    </fieldset>
+
+    <!-- Textarea -->
+    <div class="form-row">
+      <label for="summary">Summary</label>
+      <textarea id="summary" name="summary" rows="5" placeholder="1–3 sentences about the story..." required></textarea>
+      <small class="hint">Keep it concise (max ~300 characters).</small>
+      <span id="summaryError"class="error"></span>
+    </div>
+
+    <!-- Buttons -->
+    <div class="actions">
+      <button type="submit">Save</button>
+      <button type="reset" class="secondary">Clear</button>
+    </div>
+    </div>
+  </form>
+  </main>
+</body>
+</html>
