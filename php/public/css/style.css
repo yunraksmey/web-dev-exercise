@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #2d00f6;
+    font-size: 40px;
+
+}
+
+/* Top Buttons */
+a {
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 6px;
+    background: #3498db;
+    color: white;
+}
+
+a:hover {
+    background: #2980b9;
+}
+
+/* Table Style */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Table Header */
+th {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+}
+
+/* Table Data */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Row Hover */
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* Edit Button */
+td a {
+    background: #e67e22;
+}
+
+td a:hover {
+    background: #d35400;
+}
+.logo{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: deepskyblue;
+}
